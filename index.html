@@ -7,27 +7,41 @@
     <meta name="keyword" content="">
     <meta name="description" content="">
     <title>吾即萌新-WUJIMENGXIN</title>
-    <link rel="font icon" href="./public/icon/wujimengxin.ico">
+    <link rel="font icon" href="./public/icon/wujimengxin64x64.ico">
     <link rel="stylesheet" href="./public/css/common.css">
-    <link rel="stylesheet" href="./public/css/header.css">
     <link rel="stylesheet" href="./public/css/index.css">
+    <script src="./public/js/pageerror.js"></script>
+    <script src="./public/js/index.js"></script>
 </head>
 
 <body>
     <header>
         <ul class="w">
             <a href="./index.html">首页(HOME)</a>
-            <a href="./pages/about.html">关于(ABOUT)</a>
+            <a id="app" href="">应用(APP)</a>
+            <a href="./view/about.html">关于(ABOUT)</a>
         </ul>
     </header>
 
     <div class="top_banner w">
-        <!-- <img src="" alt=""> -->
+        <div>
+            <img src="./public/img/user/吾即萌新LOGO-黑-800px.png" alt="">
+            <h4><p>Hi 你好！</p><br>欢迎来到吾即萌新的个人博客</h4>
+        </div>
+        <ul id="animation_border">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
-    
+
     <div class="myproduct w">
         <h1>
-            <div>我的产品(MyProduct)</div>
+            <div>我的应用程序(My Application)</div>
+            <a id="All" href="">All</a>
         </h1>
 
         <ul>
@@ -42,6 +56,7 @@
         <ul class="w">
             <a>@吾即萌新</a>
             <a>一个以全栈开发工程师为目标的野生程序员</a>
+            <a id="WebAbout" href="./index.html">WebAbout</a>
         </ul>
     </footer>
 </body>
